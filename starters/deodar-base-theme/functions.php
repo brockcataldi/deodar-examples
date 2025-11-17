@@ -20,6 +20,10 @@ if(false === function_exists('dbt_deodar')){
                     'handle' => 'slick',
                     'url'    => 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css',
                 ),
+                array(
+                    'handle' => 'index',
+                    'file'    => '/build/index.build.css',
+                ),
             ),
             'scripts' => array(
                 array(
@@ -30,7 +34,11 @@ if(false === function_exists('dbt_deodar')){
                 array(
                     'handle'      => 'gsap',
                     'url'         => 'https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js'
-                )
+                ),
+                array(
+                    'handle' => 'index',
+                    'file'    => '/build/index.build.js',
+                ),
             ),
             'supports' => array(
                 'title-tag',

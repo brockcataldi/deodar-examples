@@ -1,0 +1,17 @@
+{
+    "name": "acf/demo",
+    "title": "Demo",
+    "description": "A Demo block",
+    "style": [ "file:./build/demo.build.css" ],
+    "viewScript": [ "file:./build/demo.build.js", "jquery" ],
+    "category": "text",
+    "icon": "admin-comments",
+    "keywords": ["testimonial", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "demo.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}
