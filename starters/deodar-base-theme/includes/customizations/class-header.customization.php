@@ -8,7 +8,7 @@ class Header_Customization extends Deodar_Customization{
 
 	public function register($wp_customize): void {
 		$wp_customize->add_section('section_header',array(
-		    'title' =>  __('Nerd Boi'),
+		    'title' =>  __('Header'),
 		    'priority'=> 118,
 		    'panel' => '',
         ));

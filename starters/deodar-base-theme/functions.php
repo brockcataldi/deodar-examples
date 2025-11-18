@@ -4,8 +4,8 @@ if(false === function_exists('dbt_deodar')){
     function dbt_deodar($sources){
         return array(
             'production' => false, // Set to true in production
-            'url' =>  plugin_dir_url(__FILE__),
-            'path' => plugin_dir_path(__FILE__),
+            'url' =>  get_stylesheet_directory_uri(),
+            'path' => get_stylesheet_directory(),
             'menus' => array(
                 'primary_menu'   => 'Demo Menu',
                 'secondary_menu' => 'Secondary Menu',
