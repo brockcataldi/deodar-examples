@@ -1,0 +1,10 @@
+{
+    "externals": {
+        "jquery": "jQuery",
+        "gsap": "gsap"
+    },
+    "skip": [
+        ".git",
+        "node_modules"
+    ]
+}
