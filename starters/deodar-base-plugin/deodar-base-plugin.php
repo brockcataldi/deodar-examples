@@ -38,6 +38,7 @@ if(false === function_exists('dbp_deodar')){
                 array(
                     'handle' => 'index',
                     'file'    => '/build/index.build.css',
+                    'editor' => true
                 ),
             ),
             'scripts' => array(

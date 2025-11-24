@@ -23,6 +23,7 @@ if(false === function_exists('dbt_deodar')){
                 array(
                     'handle' => 'index',
                     'file'    => '/build/index.build.css',
+                    'editor' => true
                 ),
             ),
             'scripts' => array(
