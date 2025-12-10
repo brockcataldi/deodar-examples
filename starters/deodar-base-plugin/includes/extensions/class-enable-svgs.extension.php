@@ -1,6 +1,6 @@
 <?php 
 
-class Enable_Svg_Extension extends Deodar_Extension {
+class Enable_Svgs_Extension extends Deodar_Extension {
 
 	public function __construct(){
 		parent::__construct();
